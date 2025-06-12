@@ -1,0 +1,90 @@
+body{
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#logo {
+  height: 80px;
+  width: 80px;
+
+  object-fit: cover;
+  border-radius: 60px;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 10px;
+}
+
+.outerbox {
+  height: 50vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 50px;
+  background-color: rgb(246, 247, 248);
+  box-shadow: 6px 10px 20px 2px rgb(240, 235, 235);
+}
+
+.main {
+  height: 100px;
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#pass {
+  height: 50px;
+  width: 70%;
+  border: 2px solid rgb(147, 144, 144);
+  padding: 10px;
+  margin-left: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+#cpbtn {
+  outline: none;
+  height: 50px;
+  width: 90px;
+  padding: 10px;
+  margin-right: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgb(12, 115, 250);
+  color: white;
+}
+#cpbtn:hover {
+  background-color: rgb(15, 15, 16);
+}
+
+.inputs {
+  height: 200px;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.input {
+  width: 300px;
+  margin-left: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(205, 217, 250);
+  cursor: pointer;
+}
+
+.input:hover {
+  background-color: rgb(238, 251, 247);
+}
+
+.cheak {
+  margin-top: 0px;
+  width: 20px;
+  height: 20px;
+}
