@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useReducer, useRef, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+
+import logo from "";
 import "./App.css";
 
 function App() {
@@ -44,7 +44,7 @@ let copypassword= useCallback(()=>{
  
   return (
     <>
-    <img id="logo" src="./public/logo.png" alt="logo" />
+    <img id="logo" src="/logo.png" alt="logo" />
     <h1>Password Generator</h1>
  
       <div className="outerbox">
