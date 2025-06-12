@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useReducer, useRef, useState } from "react";
 
-import logo from "";
+
 import "./App.css";
 
 function App() {
